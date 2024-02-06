@@ -1,0 +1,9 @@
+package in;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Zoo {
+	@Autowired
+	Animal a;
+
+}

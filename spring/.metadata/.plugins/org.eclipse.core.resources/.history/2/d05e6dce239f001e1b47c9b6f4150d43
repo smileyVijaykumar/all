@@ -1,0 +1,11 @@
+package edu.jsp.nonpremetiveDatatype;
+
+import java.util.List;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+	
+	List<String> names;
+}

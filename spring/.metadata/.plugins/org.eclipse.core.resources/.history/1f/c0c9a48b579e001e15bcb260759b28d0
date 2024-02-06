@@ -1,0 +1,8 @@
+package edu.jsp.has_A_Relation;
+
+public class Engine {
+	private String cc;
+	private String engineType;
+	private String Bhp;
+
+}

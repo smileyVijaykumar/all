@@ -1,0 +1,12 @@
+1.mounting phase
+    constructor()
+    render()
+    static getDerivedStateFromProps()
+    componentDidMount()
+
+    2.Updating phase
+        static getDerivedStateFromProps()
+        shouldComponentUpdate()
+        render()
+        getSnapShotBeforeUpdate()
+        componentDidUpdate()

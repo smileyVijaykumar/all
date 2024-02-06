@@ -1,0 +1,22 @@
+package string;
+
+public class S2 {
+
+	public static void main(String[] args) {
+	
+		String str="I Love My India?";
+		  
+		char [] ch = str.toCharArray();
+		
+		int count_w=0;
+		
+		for(int i=0;i<ch.length;i++) {
+			if(ch[i] == ' ') {
+				count_w++;
+			}
+		}
+		
+		
+		
+	}
+}

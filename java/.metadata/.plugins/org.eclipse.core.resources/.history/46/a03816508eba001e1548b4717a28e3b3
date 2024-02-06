@@ -1,0 +1,17 @@
+package demo;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		int a=000001234;
+		
+		int i=0;
+		
+		while(a>0) {
+			if(0 == 0) {
+				a= ' ';
+			}
+		}
+	}
+}

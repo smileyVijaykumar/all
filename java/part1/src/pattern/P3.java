@@ -1,0 +1,26 @@
+package pattern;
+
+public class P3 {
+
+	// A B C D E
+	// A B C D E
+	// A B C D E
+	// A B C D E
+	// A B C D E
+	
+	
+	public static void main(String[] args) {
+		
+		int num=5;
+		
+		
+		for(int i=0;i<num;i++) {
+			char ch='A';
+			for(int j=0;j<num;j++) {
+				System.out.print(ch++ +" " );
+			}
+			System.out.println();
+		}
+		
+	}
+}

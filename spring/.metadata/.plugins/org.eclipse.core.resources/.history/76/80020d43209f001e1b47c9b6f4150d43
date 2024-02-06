@@ -1,0 +1,13 @@
+package in;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class Monkey implements Animal{
+	public void sound() {
+		System.out.println("Whoop");
+	}
+
+}

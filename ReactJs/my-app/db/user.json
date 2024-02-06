@@ -1,0 +1,16 @@
+{
+    "users":[
+        {
+            "id":1,
+            "name":"vijay",
+            "email":"vijay@gmail.com",
+            "phoneno":987654332
+        },  {
+            "id":2,
+            "name":"ram",
+            "email":"ram@gmail.com",
+            "phoneno":887654332
+        }
+       
+    ]
+}

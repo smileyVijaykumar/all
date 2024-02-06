@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+}
+.nav-area{
+    width: 100%;
+    height: 62px;
+    background-color: black;
+}
+.logo{
+    line-height: 62px;
+    color: white;
+    margin-left: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+.btn-area{
+    display: none;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+ ul li{
+    text-align: center;
+    line-height: 62px;
+    margin: 0px 5px;
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 22px 15px;
+    color: white;
+    font-weight: 500;
+}
+ul li a:hover{
+    background-color: orangered;
+    color: yellowgreen;
+}
+#box{
+    color: #fff;
+}
+.btn-area{
+    display: none;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    float: right;
+    line-height: 62px;
+    margin-right: 40px;
+    transition: 0.5s;
+}
+#box{
+    display: none;
+}
+
+@media (max-width:860px) {
+    .btn-area{
+        display: block;
+    }
+   .nav-area ul{
+    position: fixed;
+    left: 100%;
+    top: 62px;
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+   }
+   .nav-area ul li{
+    display: block;
+   }
+   #box:checked ~ ul{
+    left: 0px;
+   }
+   
+   
+  
+}
+
+
+

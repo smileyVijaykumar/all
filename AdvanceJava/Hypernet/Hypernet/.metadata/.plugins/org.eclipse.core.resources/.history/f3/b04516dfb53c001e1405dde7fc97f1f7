@@ -1,0 +1,59 @@
+package edu.jsp.OneToOneBidirectional;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class pancard {
+	@Id
+	private String panNo;
+	private String address,nationality,dob;
+	private long moblie;
+	
+	@OneToOne(mappedBy="card")
+	private person p;
+	
+	public String getPanNo() {
+		return panNo;
+	}
+	public void setPanNo(String panNo) {
+		this.panNo = panNo;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getNationality() {
+		return nationality;
+	}
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+	public String getDob() {
+		return dob;
+	}
+	public void setDob(String dob) {
+		this.dob = dob;
+	}
+	public long getMoblie() {
+		return moblie;
+	}
+	public void setMoblie(long moblie) {
+		this.moblie = moblie;
+	}
+	public person getP() {
+		return p;
+	}
+	public void setP(person p) {
+		this.p = p;
+	}
+	@Override
+	public String toString() {
+		return "pancard [panNo=" + panNo + ", address=" + address + ", nationality=" + nationality + ", dob=" + dob
+				+ ", moblie=" + moblie + "]";
+	}
+	
+}

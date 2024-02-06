@@ -1,0 +1,35 @@
+package pattern;
+
+public class P6 {
+	// A B C D E
+	// 1 2 3 4 5
+	// E D C B A
+	// 6 7 8 9 10
+	// A B C D E
+	
+	public static void main(String[] args) {
+		int num=5;
+		
+		int n=1;
+		
+		for(int i=0;i<num;i++) {
+			char ch='A';
+			char ch1='E';
+			for(int j=0;j<num;j++) {
+				if(i%2==0) {
+					System.out.print(ch++ +" ");
+					
+					if (ch=='E') {
+						System.out.print(ch1--);
+					}
+				}
+				else {
+					System.out.print(n++ + " ");
+				}
+			}
+			
+			System.out.println();
+		}
+		
+	}
+}

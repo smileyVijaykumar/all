@@ -1,0 +1,32 @@
+package grooming;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Aadhar {
+	private int aid;
+	private String address;
+	private long phone;
+	
+	public int getAid() {
+		return aid;
+	}
+	public void setAid(int aid) {
+		this.aid = aid;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public long getPhone() {
+		return phone;
+	}
+	public void setPhone(long phone) {
+		this.phone = phone;
+	}
+	
+	
+
+}

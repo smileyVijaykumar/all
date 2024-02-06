@@ -1,0 +1,7 @@
+package edu.jsp.student;
+
+public class Student {
+	public Student() {
+		System.out.println("The Student Constructor is called");
+	}
+}

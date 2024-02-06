@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#navBlock{
+    width: 100%;
+    height: 80px;
+    background-color: #123abc;
+    color: #fff;
+}
+#navBlock article{
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+.logoBlock{
+    flex-basis: 50%;
+}
+.logoBlock > img{
+    width: 100px;
+    height: 80px;
+}
+.menuBlock{
+    flex-basis: 50%;
+}
+.menuBlock ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menuBlock ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 80px;
+    font-size: 34px;
+}

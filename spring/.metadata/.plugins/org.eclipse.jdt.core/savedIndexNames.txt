@@ -1,0 +1,10 @@
+INDEX VERSION 1.134+C:\Qsp\spring\.metadata\.plugins\org.eclipse.jdt.core
+4069532032.index
+2474056228.index
+3220780949.index
+1865797976.index
+596684274.index
+3413270776.index
+3326747425.index
+2961094178.index
+3168494330.index

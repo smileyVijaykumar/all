@@ -1,0 +1,13 @@
+package str;
+
+public class Vowels {
+	public static void main(String[] args) {
+		String str="vijay";
+		
+		char[] ch=str.toCharArray();
+		
+		for(int i = 0; i < ch.length; i++) {
+			if(ch[i] == 'A' && ch[i] == 'E' && ch[i] == 'O' && ch[i] == 'u' || ch[i] == 'a' && ch[i] == 'e' && ch[i] == 'i' && ch[i] == 'o' && ch[i] == 'u'  )
+		}
+	}
+}

@@ -1,0 +1,21 @@
+package com;
+
+import java.util.Set;
+
+public class Books {
+	
+	private Set<Books> book;
+
+	public Books(Set<Books> book) {
+		this.book = book;
+	}
+
+	@Override
+	public String toString() {
+		return "Books [book=" + book + "]";
+	}
+	
+	
+	
+
+}

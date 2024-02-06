@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        width: 500px;
+        height: 500px;
+        border: 3px solid red;
+        position: relative;
+      }
+      .container > div {
+        width: 100px;
+        height: 100px;
+        border: 2px solid red;
+        margin: 10px;
+
+        /* margin-bottom: 20px;
+        margin-top: 10px; */
+      }
+      .container > div:first-child() {
+        position: absolute;
+        z-index: 99;
+        /* left: 300px; */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <pre> -->
+    <!-- h  e  l  l   o                                               javascript</pre -->
+    <!-- > -->
+
+    <div class="container">
+      <div>div1</div>
+      <div>div2</div>
+      <div>div3</div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

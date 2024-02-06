@@ -1,0 +1,16 @@
+/* !Descended ChildSelector */
+div p{
+    background-color: aqua;
+}
+/* !child selector */
+
+div>p{
+    background-color: green;
+}
+
+div+p{
+    background-color: bisque;
+}
+div~p{
+    background-color: brown;
+}

@@ -1,0 +1,19 @@
+package com.vijay.springBoot.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+public class StudentController {
+	
+	@RequestMapping(method = RequestMethod.GET, value="m1")
+	public String m1() {
+		return "Hello World";
+	}
+	
+	@RequestMapping(method = RequestMethod.GET,value = "m2")
+	public Student m2() {
+		
+		S
+	}
+
+}

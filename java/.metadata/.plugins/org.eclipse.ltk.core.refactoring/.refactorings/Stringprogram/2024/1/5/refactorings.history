@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;str&apos; to &apos;Java3/src&apos;&#x0D;&#x0A;- Original project: &apos;Stringprogram&apos;&#x0D;&#x0A;- Destination element: &apos;Java3/src&apos;&#x0D;&#x0A;- Original element: &apos;Stringprogram/src/str&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Java3/src" element1="/src&lt;str" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1706540911694" version="1.0"/>
+</session>

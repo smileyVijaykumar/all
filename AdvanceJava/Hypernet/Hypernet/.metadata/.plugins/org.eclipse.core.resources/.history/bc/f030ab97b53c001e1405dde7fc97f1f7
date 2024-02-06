@@ -1,0 +1,65 @@
+package edu.jsp.OneToOneBidirectional;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+
+@Entity
+public class person {
+		@Id
+		@GeneratedValue(strategy=GenerationType.IDENTITY)
+		private int id;
+		private String name;
+		private String bloodgroup;
+		private String gender;
+		private int age;
+		@OneToOne
+		private pancard p;
+		
+		
+		public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name = name;
+		}
+		public String getBloodgroup() {
+			return bloodgroup;
+		}
+		public void setBloodgroup(String bloodgroup) {
+			this.bloodgroup = bloodgroup;
+		}
+		public String getGender() {
+			return gender;
+		}
+		public void setGender(String gender) {
+			this.gender = gender;
+		}
+		public int getAge() {
+			return age;
+		}
+		public void setAge(int age) {
+			this.age = age;
+		}
+		public pancard getP() {
+			return p;
+		}
+		public void setP(pancard p) {
+			this.p = p;
+		}
+		@Override
+		public String toString() {
+			return "person [id=" + id + ", name=" + name + ", bloodgroup=" + bloodgroup + ", gender=" + gender
+					+ ", age=" + age + ", p=" + p + "]";
+		}
+		
+	
+}

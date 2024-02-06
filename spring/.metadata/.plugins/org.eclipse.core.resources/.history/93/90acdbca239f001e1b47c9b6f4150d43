@@ -1,0 +1,8 @@
+package edu.jsp.nonpremetiveDatatype;
+
+import java.util.List;
+
+public class Employee {
+	
+	List<String> names;
+}

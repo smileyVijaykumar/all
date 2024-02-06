@@ -1,0 +1,10 @@
+package edu.jsp.has_A_Relation;
+
+public class Car {
+	
+	private String name;
+	private String color;
+	private String model;
+	private double prize;
+
+}

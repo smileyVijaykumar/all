@@ -1,0 +1,5 @@
+package com.vijay.springBoot.controller;
+
+public class StudentController {
+
+}
